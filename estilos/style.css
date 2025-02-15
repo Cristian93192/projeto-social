@@ -49,16 +49,18 @@ section#redes-sociais {
     left: 90%;
 }
 
-section > a > img {
+section#redes-sociais > a > img {
     height: 50px;
     width: 50px;
+    box-sizing: border-box;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
 }
-section > a > img:hover {
-    height: 60px;
-    width: 60px;
+section#redes-sociais > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
     border-radius: 50%;
+    transform: translate(-3px, -3px);
+    transition: tranform 0.5s, border 0.5s;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
 }
